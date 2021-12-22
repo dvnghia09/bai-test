@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #3C64B1;
+    --black-color : #000;
+    --text-color : #373F41;
+    --border-color: #E5E5E5;
+    --White-color : #fff; 
+
+    --header-height : 88px;
+
+}
+
+.magin-left-right{
+    margin: 0 32px;
+}
+
+.grid{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.c-4{
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    padding: 0 15px;
+}
+
+.c-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.c-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+}
+
+.btn-start{
+    color: var(--White-color);
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    padding: 12px 18px;
+    background-color: var(--primary-color);
+    font-weight: 700;
+    display: block;
+}
+
+.btn-start:hover{
+    opacity: 0.7;
+}
+
+.btn-login{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+    display: block;
+    
+}
+
+.btn-login:hover{
+    opacity: 0.7;
+}
+
+.margin-left{
+  margin-left: 20px;
+}
+
+.margin-right{
+    margin-right: 24px;
+}
+
+.btn-border{
+    border: 1px solid var(--primary-color);
+}
+
+.btn-padding{
+    padding: 12px 18px;
+}
+
+
+
+
+
+
+

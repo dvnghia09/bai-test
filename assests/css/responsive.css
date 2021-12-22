@@ -1,0 +1,282 @@
+/* mac pro */
+@media (min-width: 1024px) and (max-width: 1110px) {
+    .header {
+        padding: 0 20px;
+    }
+
+    .container{
+        margin: 0 20px;
+    }
+}  
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header {
+        padding: 0 20px;
+    }
+
+    .banner-content{
+        width: 420px;
+    }
+
+    .banner-content-title{
+        font-size: 2.4rem;
+        line-height: 3rem;
+        margin-bottom: 12px;
+    }
+
+    .banner-content-sub {
+        font-size: 1.2rem;
+        margin-bottom: 18px;
+
+    }
+
+    .container{
+        margin: 0 20px;
+    }
+
+    .info-content{
+        margin: 0;
+    }
+
+    .info-content-heading{
+        font-size: 1.6rem;
+        line-height: 22px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .info-content-title{
+        font-size: 1.2rem;
+        line-height: 12px;
+        margin: 0;
+        margin-top: 12px;
+        margin-bottom: 14px;
+    }
+
+    .info-form-btn{
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .info-form-input{
+        width: 220px;
+        padding: 10px 0 10px 16px;
+    }
+
+    .info-content-sub{
+        font-size: 1.1rem;
+    }
+
+    .more-left-title{
+        margin-top: 18px;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+
+    .more-sub {
+        margin-top: 24px;
+    }
+
+    .more-sub-item__content {
+        font-size: 1.2rem;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    
+    
+    .c-4{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+        padding: 0 8px;
+    }
+
+    .c-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 8px;
+    }
+
+    .c-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+        padding: 0 8px;
+    }
+
+    .footer-item-title{
+        font-size: 1.6rem;
+    }
+
+    .footer-item-content{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+
+    .c-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 6px;
+    }
+
+    .c-3{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 6px;
+    }
+
+    .banner-content{
+        width: 300px;
+    }
+
+    .banner-content-title {
+        line-height: 20px;
+        font-size: 1.6rem;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .banner-content-sub {
+        font-size: 1.1rem;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        margin: 0;
+        color: var(--text-color);
+        margin-bottom: 7px;
+    }
+
+    .banner-btn {
+        height: 30px;
+    }
+
+    .btn-start {
+        color: var(--White-color);
+        padding: 4px 4px;
+        background-color: var(--primary-color);
+        font-weight: 700;
+        display: block;
+        font-size: 1.1rem;
+        line-height: 12px;
+        line-height: 18px;
+    }
+
+    .margin-left{
+        margin-left: 6px;
+    }
+
+    .btn-login {
+        color: var(--primary-color);
+        font-size: 1.1rem;
+        line-height: 4px;
+        font-weight: 700;
+        display: block;
+    }
+
+    .header-logo-link img {
+        width: 40px;
+    }
+
+    .header{
+        height: 50px;
+    }
+
+    .header-container{
+        height: 50px;
+    }
+
+    .magin-left-right {
+        margin: 0 4px;
+    }
+
+    .hearer-menu-item{
+        font-size: 1.1rem;
+    }
+
+    .container {
+        margin: 0 6px;
+    }
+
+    .option-item-title {
+        margin: 0;
+        margin-top: 16px;
+        font-size: 1.4rem;
+        line-height: 16px;
+        font-weight: 700;
+        letter-spacing: 0.1px;
+        color: var(--text-color);
+        min-height: 32px;
+    }
+
+    .info-content{
+        text-align: center;
+    }
+
+    .info-content-heading{
+        margin: 0;
+        font-size: 1.6rem;
+    }
+
+    .info-form-input {
+        width: 270px;
+    }
+
+    .info-content-title {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
+
+    .heading-title{
+        font-size: 1.6rem;
+        line-height: 20px;
+    }
+
+    .heading-sub{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+
+    .header{
+        padding:0 6px;
+    }
+
+    .more{
+        margin-top: 20px;
+    }
+
+    .more-left-title{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .more-sub{
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .more-sub-item__content{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+}
